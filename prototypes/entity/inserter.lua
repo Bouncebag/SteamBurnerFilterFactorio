@@ -182,8 +182,94 @@ util.merge{data.raw.inserter["stack-filter-inserter"],{
       }
     },
     extension_speed = 0.0214,
-    rotation_speed = 0.01,
-  }}
+    rotation_speed = 0.01,hand_base_picture =
+    {
+      filename = "__base__/graphics/entity/burner-inserter/burner-inserter-hand-base.png",
+      priority = "extra-high",
+      width = 8,
+      height = 34,
+      hr_version =
+      {
+        filename = "__base__/graphics/entity/burner-inserter/hr-burner-inserter-hand-base.png",
+        priority = "extra-high",
+        width = 32,
+        height = 136,
+        scale = 0.25
+      }
+    },
+    hand_base_shadow =
+    {
+      filename = "__base__/graphics/entity/burner-inserter/burner-inserter-hand-base-shadow.png",
+      priority = "extra-high",
+      width = 8,
+      height = 33,
+      hr_version =
+      {
+        filename = "__base__/graphics/entity/burner-inserter/hr-burner-inserter-hand-base-shadow.png",
+        priority = "extra-high",
+        width = 32,
+        height = 132,
+        scale = 0.25
+      }
+    },
+    hand_closed_shadow =
+    {
+      filename = "__base__/graphics/entity/burner-inserter/burner-inserter-hand-closed-shadow.png",
+      priority = "extra-high",
+      width = 18,
+      height = 41,
+      hr_version =
+      {
+        filename = "__base__/graphics/entity/burner-inserter/hr-burner-inserter-hand-closed-shadow.png",
+        priority = "extra-high",
+        width = 72,
+        height = 164,
+        scale = 0.25
+      }
+    },
+    hand_open_shadow =
+    {
+      filename = "__base__/graphics/entity/burner-inserter/burner-inserter-hand-open-shadow.png",
+      priority = "extra-high",
+      width = 18,
+      height = 41,
+      hr_version =
+      {
+        filename = "__base__/graphics/entity/burner-inserter/hr-burner-inserter-hand-open-shadow.png",
+        priority = "extra-high",
+        width = 72,
+        height = 164,
+        scale = 0.25
+      }
+    },
+    pickup_position = {0, -1},
+    insert_position = {0, 1.2},
+    platform_picture =
+    {
+      sheet =
+      {
+        filename = "__base__/graphics/entity/burner-inserter/burner-inserter-platform.png",
+        priority = "extra-high",
+        width = 46,
+        height = 46,
+        shift = {0.09375, 0},
+        hr_version =
+        {
+          filename = "__base__/graphics/entity/burner-inserter/hr-burner-inserter-platform.png",
+          priority = "extra-high",
+          width = 105,
+          height = 79,
+          shift = util.by_pixel(1.5, 7.5-1),
+          scale = 0.5
+        }
+      }
+    },
+    circuit_wire_connection_points = circuit_connector_definitions["inserter"].points,
+    circuit_connector_sprites = circuit_connector_definitions["inserter"].sprites,
+    circuit_wire_max_distance = inserter_circuit_wire_max_distance,
+    default_stack_control_input_signal = inserter_default_stack_control_input_signal
+  }
+  }
 })
 
 data:extend({
@@ -213,8 +299,99 @@ util.merge{data.raw.inserter["stack-inserter"],{
     },
     extension_speed = 0.0214,
     rotation_speed = 0.01,
-  }}
+	hand_base_picture =
+    {
+      filename = "__base__/graphics/entity/burner-inserter/burner-inserter-hand-base.png",
+      priority = "extra-high",
+      width = 8,
+      height = 34,
+      hr_version =
+      {
+        filename = "__base__/graphics/entity/burner-inserter/hr-burner-inserter-hand-base.png",
+        priority = "extra-high",
+        width = 32,
+        height = 136,
+        scale = 0.25
+      }
+    },
+    hand_base_shadow =
+    {
+      filename = "__base__/graphics/entity/burner-inserter/burner-inserter-hand-base-shadow.png",
+      priority = "extra-high",
+      width = 8,
+      height = 33,
+      hr_version =
+      {
+        filename = "__base__/graphics/entity/burner-inserter/hr-burner-inserter-hand-base-shadow.png",
+        priority = "extra-high",
+        width = 32,
+        height = 132,
+        scale = 0.25
+      }
+    },
+    hand_closed_shadow =
+    {
+      filename = "__base__/graphics/entity/burner-inserter/burner-inserter-hand-closed-shadow.png",
+      priority = "extra-high",
+      width = 18,
+      height = 41,
+      hr_version =
+      {
+        filename = "__base__/graphics/entity/burner-inserter/hr-burner-inserter-hand-closed-shadow.png",
+        priority = "extra-high",
+        width = 72,
+        height = 164,
+        scale = 0.25
+      }
+    },
+    hand_open_shadow =
+    {
+      filename = "__base__/graphics/entity/burner-inserter/burner-inserter-hand-open-shadow.png",
+      priority = "extra-high",
+      width = 18,
+      height = 41,
+      hr_version =
+      {
+        filename = "__base__/graphics/entity/burner-inserter/hr-burner-inserter-hand-open-shadow.png",
+        priority = "extra-high",
+        width = 72,
+        height = 164,
+        scale = 0.25
+      }
+    },
+    pickup_position = {0, -1},
+    insert_position = {0, 1.2},
+    platform_picture =
+    {
+      sheet =
+      {
+        filename = "__base__/graphics/entity/burner-inserter/burner-inserter-platform.png",
+        priority = "extra-high",
+        width = 46,
+        height = 46,
+        shift = {0.09375, 0},
+        hr_version =
+        {
+          filename = "__base__/graphics/entity/burner-inserter/hr-burner-inserter-platform.png",
+          priority = "extra-high",
+          width = 105,
+          height = 79,
+          shift = util.by_pixel(1.5, 7.5-1),
+          scale = 0.5
+        }
+      }
+    },
+    circuit_wire_connection_points = circuit_connector_definitions["inserter"].points,
+    circuit_connector_sprites = circuit_connector_definitions["inserter"].sprites,
+    circuit_wire_max_distance = inserter_circuit_wire_max_distance,
+    default_stack_control_input_signal = inserter_default_stack_control_input_signal
+  }
+  }
 })
+data.raw.inserter["burner-stack-inserter"].hand_closed_picture = inserter.graphics.red.stack.hand_closed_picture()
+data.raw.inserter["burner-stack-inserter"].hand_open_picture = inserter.graphics.red.stack.hand_open_picture()
+data.raw.inserter["burner-stack-filter-inserter"].hand_closed_picture = inserter.graphics.red.stack.hand_closed_picture()
+data.raw.inserter["burner-stack-filter-inserter"].hand_open_picture = inserter.graphics.red.stack.hand_open_picture()
 
 data.raw.inserter["burner-stack-inserter"].localised_name = {"entity-name.burner-stack-inserter"}
 data.raw.inserter["burner-stack-filter-inserter"].localised_name = {"entity-name.burner-stack-filter-inserter"}

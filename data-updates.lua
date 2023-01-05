@@ -18,6 +18,7 @@ if settings.startup["SteamBurnerInster-steamupdate"].value == true then
 end
 
 if settings.startup["SteamBurnerInster-burnerstackupdate"].value == true then
+	data.raw.inserter["burner-stack-inserter"].allow_burner_leech = true
 	if settings.startup["bobmods-logistics-inserteroverhaul"].value == true then
 		data.raw.item["burner-stack-inserter"].subgroup = "bob-logistic-tier-0"
 		data.raw.item["burner-stack-filter-inserter"].subgroup = "bob-logistic-tier-0"
