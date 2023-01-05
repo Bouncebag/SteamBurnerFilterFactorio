@@ -40,7 +40,7 @@ data.raw.inserter["steam-stack-inserter"].energy_source =
   },
   burns_fluid = false,
   scale_fluid_usage = false,
-  fluid_usage_per_tick = (0.7/60),
+  fluid_usage_per_tick = (1.4/60),
   maximum_temperature = 765,
   smoke =
   {
@@ -91,7 +91,7 @@ data.raw.inserter["steam-stack-filter-inserter"].energy_source =
   },
   burns_fluid = false,
   scale_fluid_usage = false,
-  fluid_usage_per_tick = (0.7/60),
+  fluid_usage_per_tick = (1.4/60),
   maximum_temperature = 765,
   smoke =
   {
