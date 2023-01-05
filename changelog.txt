@@ -1,17 +1,22 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.3
+Date: 05. 01. 2023
+  Changes:
+    - Attempted to fix graphics without adding graphics for steam inserters
+---------------------------------------------------------------------------------------------------
 Version: 1.0.2
 Date: 05. 01. 2023
   Changes:
     - Added allow_burner_leech = true to burner-stack-inserter
-    - Attempted to fix graphics without adding graphics
+    - Attempted to fix graphics without adding graphics for burner stack inserters
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.1
-Date: ??. 12. 2021
+Date: 07. 11. 2021
   Changes:
     - Fixed fluid consumption of Steam Inserters added by this mod
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.0
-Date: ??. 02. 2020
+Date: 18. 03. 2020
   Info:
     - Created Mod
 ---------------------------------------------------------------------------------------------------

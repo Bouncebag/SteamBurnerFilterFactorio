@@ -14,10 +14,7 @@ util.merge{data.raw.inserter["stack-inserter"],{
     energy_per_rotation = "20KJ",
   }}
 })
-data.raw.inserter["steam-stack-inserter"].icon_mipmaps = nil
 data.raw.inserter["steam-stack-inserter"].hand_base_picture = inserter.graphics.white.hand_base_picture()
-data.raw.inserter["steam-stack-inserter"].hand_closed_picture = inserter.graphics.white.hand_closed_picture()
-data.raw.inserter["steam-stack-inserter"].hand_open_picture = inserter.graphics.white.hand_open_picture()
 data.raw.inserter["steam-stack-inserter"].platform_picture = inserter.graphics.white.platform_picture()
 data.raw.inserter["steam-stack-inserter"].energy_source =
 {
@@ -65,10 +62,7 @@ util.merge{data.raw.inserter["stack-filter-inserter"],{
     energy_per_rotation = "20KJ",
   }}
 })
-data.raw.inserter["steam-stack-filter-inserter"].icon_mipmaps = nil
 data.raw.inserter["steam-stack-filter-inserter"].hand_base_picture = inserter.graphics.white.hand_base_picture()
-data.raw.inserter["steam-stack-filter-inserter"].hand_closed_picture = inserter.graphics.white.hand_closed_picture()
-data.raw.inserter["steam-stack-filter-inserter"].hand_open_picture = inserter.graphics.white.hand_open_picture()
 data.raw.inserter["steam-stack-filter-inserter"].platform_picture = inserter.graphics.white.platform_picture()
 data.raw.inserter["steam-stack-filter-inserter"].energy_source =
 {
@@ -116,7 +110,6 @@ util.merge{data.raw.inserter["filter-inserter"],{
     energy_per_rotation = "10KJ",
   }}
 })
-data.raw.inserter["steam-filter-inserter"].icon_mipmaps = nil
 data.raw.inserter["steam-filter-inserter"].hand_base_picture = inserter.graphics.white.hand_base_picture()
 data.raw.inserter["steam-filter-inserter"].hand_closed_picture = inserter.graphics.white.hand_closed_picture()
 data.raw.inserter["steam-filter-inserter"].hand_open_picture = inserter.graphics.white.hand_open_picture()
@@ -392,6 +385,11 @@ data.raw.inserter["burner-stack-inserter"].hand_closed_picture = inserter.graphi
 data.raw.inserter["burner-stack-inserter"].hand_open_picture = inserter.graphics.red.stack.hand_open_picture()
 data.raw.inserter["burner-stack-filter-inserter"].hand_closed_picture = inserter.graphics.red.stack.hand_closed_picture()
 data.raw.inserter["burner-stack-filter-inserter"].hand_open_picture = inserter.graphics.red.stack.hand_open_picture()
+
+data.raw.inserter["steam-stack-inserter"].hand_closed_picture = inserter.graphics.red.stack.hand_closed_picture()
+data.raw.inserter["steam-stack-inserter"].hand_open_picture = inserter.graphics.red.stack.hand_open_picture()
+data.raw.inserter["steam-stack-filter-inserter"].hand_closed_picture = inserter.graphics.red.stack.hand_closed_picture()
+data.raw.inserter["steam-stack-filter-inserter"].hand_open_picture = inserter.graphics.red.stack.hand_open_picture()
 
 data.raw.inserter["burner-stack-inserter"].localised_name = {"entity-name.burner-stack-inserter"}
 data.raw.inserter["burner-stack-filter-inserter"].localised_name = {"entity-name.burner-stack-filter-inserter"}
