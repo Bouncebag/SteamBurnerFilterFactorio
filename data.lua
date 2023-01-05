@@ -1,0 +1,5 @@
+require("prototypes.item.inserter")
+require("prototypes.entity.inserter")
+require("prototypes.recipe.recipe")
+require("prototypes.recipe.recipe2")
+require("prototypes.technology")
