@@ -25,3 +25,24 @@ if settings.startup["SteamBurnerInster-burnerstackupdate"].value == true then
 		data.raw.item["burner-stack-filter-inserter"].subgroup = "bob-logistic-tier-0"
 	end
 end
+
+if data.raw.item["steam-stack-inserter"]  then 
+	data.raw.item["steam-stack-inserter"].icon = "__SteamBurnerInster__/graphics/icons/white-stack-inserter.png"
+    data.raw.item["steam-stack-inserter"].icon_size = 32
+end
+if data.raw.item["steam-stack-filter-inserter"]  then 
+	data.raw.item["steam-stack-filter-inserter"].icon = "__SteamBurnerInster__/graphics/icons/white-stack-filter-inserter.png"
+    data.raw.item["steam-stack-filter-inserter"].icon_size = 32
+end
+if data.raw.item["steam-filter-inserter"]  then 
+	data.raw.item["steam-filter-inserter"].icon = "__SteamBurnerInster__/graphics/icons/white-filter-inserter.png"
+    data.raw.item["steam-filter-inserter"].icon_size = 32
+end
+if data.raw.item["burner-stack-inserter"]  then 
+	data.raw.item["burner-stack-inserter"].icon = "__SteamBurnerInster__/graphics/icons/burner-stack-inserter.png"
+    data.raw.item["burner-stack-inserter"].icon_size = 32
+end
+if data.raw.item["burner-stack-filter-inserter"]  then 
+	data.raw.item["burner-stack-filter-inserter"].icon = "__SteamBurnerInster__/graphics/icons/burner-stack-filter-inserter.png"
+    data.raw.item["burner-stack-filter-inserter"].icon_size = 32
+end

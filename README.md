@@ -9,6 +9,17 @@ This mod adds Steam Filter Inserter, Steam Stack Inserter, Steam Stack Filter In
 
 <h3>Changelog</h3><br/>
 ----<br/>
+Version: 1.0.5<br/>
+Date: 07. 01. 2023<br/>
+&nbsp;&nbsp;Changes:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;- Added Icons<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;- Changed stack filter inserters hand colour<br/>
+----<br/>
+Version: 1.0.4<br/>
+Date: 06. 01. 2023<br/>
+&nbsp;&nbsp;Changes:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;- Added <code>allow_burner_leech = true</code> to <code>burner-stack-filter-inserter</code><br/>
+----<br/>
 Version: 1.0.3<br/>
 Date: 05. 01. 2023<br/>
 &nbsp;&nbsp;Changes:<br/>
