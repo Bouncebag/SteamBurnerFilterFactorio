@@ -9,6 +9,11 @@ This mod adds Steam Filter Inserter, Steam Stack Inserter, Steam Stack Filter In
 
 <h3>Changelog</h3><br/>
 ----<br/>
+Version: 1.0.6<br/>
+Date: 08. 01. 2023<br/>
+&nbsp;&nbsp;Changes:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;- If Artisanal Reskins: Bob's Mods found uses icons in their style<br/>
+----<br/>
 Version: 1.0.5<br/>
 Date: 07. 01. 2023<br/>
 &nbsp;&nbsp;Changes:<br/>
